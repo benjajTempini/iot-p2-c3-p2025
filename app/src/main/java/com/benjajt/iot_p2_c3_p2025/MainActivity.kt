@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             Iotp2c3p2025Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Benjamin Von Tempini",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -33,8 +33,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!" +
-                "El que lee eso es gay ",
+        text = "Hola $name \nEl que lee eso es gay ",
         modifier = modifier
     )
 }
